@@ -1,0 +1,80 @@
+body {
+  background-color: #FAF4E6;
+}
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .cart {
+    width: 430px;
+    margin-right: 40px;
+  }
+  .cart img {
+    width: 100%;
+    border: 1px solid #553F05;
+  }
+  
+  .description {
+    padding: 15px;
+    background-color: #FAF4E6;
+  }
+  .description p {
+    margin-bottom: 30px;
+    color: 553F05;
+    line-height: 1.7; 
+    font-size: 100px;
+  }
+  .description a {
+    color: red;
+    font-size: 1.3em;
+  }
+  .desc{
+    text-align: center;
+    margin-left: 400px;
+    margin-right: auto;
+    max-width: 650px;
+    text-align-last: left;
+  }
+  .desc h3{
+    font-family: "Mitr", sans-serif;
+    color: #553F05;
+    font-size: 30px;
+  }
+  .desc p {
+    font-family: "Montserrat", sans-serif;
+    color: #4d3802;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .desc h4{
+    font-family: "Fondamento", sans-serif;
+    color: black;
+  }
+  .desc h5{
+    font-family: "Mitr", sans-serif;
+    color: red;
+    margin-left: 55px;
+    font-size: 22px;
+  }
+  .comment-interface {
+    background-color: #FFF4E8;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .comment-interface .form-group {
+    margin-bottom: 20px;
+  }
+  .comment-interface input,
+  .comment-interface textarea {
+    width: 50%;
+    padding: 5px;
+  }

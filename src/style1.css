@@ -1,0 +1,25 @@
+body {
+    background-color: #FAF4E6;
+  }
+.container {
+    display: flex;
+    align-items: center;
+  }
+  .title {
+    flex: 1.5;
+    font-family: "Montserrat";
+    color: #553F05;
+    line-height: 1.8; 
+    padding-left: 25px; 
+    font-size: 4.0em; 
+    letter-spacing: 4px;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
+  }
+  .image {
+    flex: 1px;
+    margin-right: 30px;
+    width: 100%;
+    border: 1px solid #553F05;
+    border-radius: 10px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2)
+  }
